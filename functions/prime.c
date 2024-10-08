@@ -1,11 +1,13 @@
 #include<stdio.h>
 void prime(int i){
-    int count;
-    for(count=1;count<=i;count++){
-        i % count==0;
+    int j;
+    int count=0;
+    for(j=2;j<=i;j++){
+                    if(i%j==0){
+                       count++;
+                    }
     }
-               printf("count = %d",count);
-                    if(count==2){
+                    if(count==1){
                         printf("Prime number");
                     }
                     else{
