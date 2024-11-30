@@ -10,6 +10,6 @@ void main(){
 
     float perimeter;
     perimeter = 2*3.14*radius;
-    printf("%.2f",perimeter);
+    printf("%.3f",perimeter);
 
 }
