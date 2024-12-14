@@ -6,14 +6,14 @@ void main(){
 
         int area;
         area = 6*side*side;
-        printf("area = %d\n",area);
+        // printf();
 
-            int perimeter;
+            float perimeter;
             perimeter = 12*side;
-            printf("perimeter = %d\n",perimeter);
+            // printf("perimeter = %d\n",perimeter);
 
                 int volume;
                 volume = side*side*side;
-                printf("volume = %d",volume);
+                printf("volume = %d",volume,"area = %d",area,"perimeter = %f",perimeter);
 
 }
